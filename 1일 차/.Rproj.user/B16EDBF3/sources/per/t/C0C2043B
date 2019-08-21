@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1566364476194.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3187483943",
+    "id" : "C0C2043B",
+    "lastKnownWriteTime" : 1566364483,
+    "last_content_update" : 1566364483519,
+    "path" : "C:/Users/301-1/Desktop/내가 한 거/R 수업 코딩/R/1일 차/데이터 다루기.R",
+    "project_path" : "데이터 다루기.R",
+    "properties" : {
+        "cursorPosition" : "72,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

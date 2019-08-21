@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1566364453650.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3190803292",
+    "id" : "DC309967",
+    "lastKnownWriteTime" : 1566373065,
+    "last_content_update" : 1566373065944,
+    "path" : "C:/Users/301-1/Desktop/내가 한 거/R 수업 코딩/R/1일 차/파일 열기.R",
+    "project_path" : "파일 열기.R",
+    "properties" : {
+        "cursorPosition" : "1,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

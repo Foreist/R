@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1566364497040.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1049914657",
+    "id" : "B6728F5C",
+    "lastKnownWriteTime" : 1566371260,
+    "last_content_update" : 1566371260336,
+    "path" : "C:/Users/301-1/Desktop/내가 한 거/R 수업 코딩/R/2일 차/타이타닉2.R",
+    "project_path" : "타이타닉2.R",
+    "properties" : {
+        "cursorPosition" : "79,74",
+        "scrollLine" : "62",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
