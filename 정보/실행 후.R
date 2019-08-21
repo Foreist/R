@@ -19,11 +19,12 @@ ggplot(data=df, aes(x=dose, y=len)) +
 
 # 결측치 값 찾기
 sum(is.na(df))
-
-# 데이터 조건부
-p1 <- titanic %>% filter(Pclass == 1) %>% head(p1)
-dat <- titanic %>% filter(Pclass %in% c(2, 3)); dat
-dat <- titanic %>% select(Pclass, Name, Sex)
+dat <- read.csv(".\\tr_mod.csv", header = T)
+# 데이터 조건부 filter() 조건 만족하는 데이터 전체
+p1 <- dat %>% filter(Pclass == 1); p1
+dat1 <- titanic %>% filter(Pclass %in% c(2, 3)); dat
+# 원하는 변수만 select(변수)
+dat1 <- dat %>% select(Pclass, Name, Sex); dat1
 df$Cabin <- ifelse(is.na(df$Cabin), 'AAA', 'NOT NA')
 new_dat <- titanic %>% mutate(Sex_F = ifelse(Sex == 'female', 1, 0),
                               Sex_M = ifelse(Sex == 'male', 1, 0))
