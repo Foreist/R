@@ -1,5 +1,6 @@
 # 경로 변경
 setwd("C:\\Users\\dxodn\\Desktop\\Github\\RBasic\\R_Data")
+setwd("C:\\Users\\301-1\\Desktop\\data\\R\\R 수업\\RBasic\\R_Data")
 getwd()
 
 # 패키지
@@ -16,6 +17,7 @@ data("mtcars"); mtcars
 excel <- read_excel("excel_exam.xlsx", col_names = T)
 csv <- read.csv("csv_exam.csv", header = T)
 load("s.rda")
+save("s.rda")
 # 문자열이 있을 때
 csv <- read.csv("csv_exam.csv", header = T, stringAsfactors = F)
 

@@ -1,0 +1,38 @@
+---
+title: "Untitled"
+output: html_document
+editor_options: 
+  chunk_output_type: inline
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+install.packages("maps")
+```{r}
+library(ggiraphExtra)
+
+search()
+```
+
+
+```{r}
+str(USArrests)
+```
+
+```{r}
+library(tibble)
+crime <- rownames_to_column(USArrests, var="state")
+crime$state <- tolower(crime$state)
+str(crime)
+```
+```{r}
+library(ggplot2)
+library(maps)
+states_map <- map_data("state")
+str(states_map)
+```
+```{r}
+head(states_map)
+```
+
