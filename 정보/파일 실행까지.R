@@ -1,6 +1,6 @@
 # 경로 변경
 setwd("C:\\Users\\dxodn\\Desktop\\Github\\RBasic\\R_Data")
-setwd("C:\\Users\\301-1\\Desktop\\data\\R\\R 수업\\RBasic\\R_Data")
+setwd("..\\R 수업\\RBasic\\R_Data")
 getwd()
 
 # 패키지

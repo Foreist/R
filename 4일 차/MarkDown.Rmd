@@ -1,0 +1,49 @@
+---
+title: "logit_regression"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# 컨트롤 알트 i 누르면 적기 가능
+# 컨트롤 알트 엔터 누르면 셀 전체 실행
+```{r}
+math <- c(0, 0, 1, 1, 1)
+pass <- c(0, 0, 1, 1, 1)
+all_score <- data.frame(math, pass)
+
+```
+## 모델 만들기
+예측할 값이 0, 1의 값을 가짐
+로지스틱 회귀 모형임
+glm(답(출력데이터~문제(입력데이터), data = 데이터이름, family = binomial))
+# binomial = 우리는 0과 1을 예측할 거야
+```{r}
+model = glm(pass~math, data = all_score, family = binomial)
+summary(model)
+model
+```
+## 예측
+```{r}
+dat <- data.frame(math = c(0, 0, 0, 1, 1, 1, 0, 0))
+# rml은 respone이 들어감
+pred <- predict(model, newdata = dat, type= "response"); pred
+# 확률이 0.5 이상인 거는 정수로 변환
+pred <- as.integer(pred > 0.5)
+pred
+```
+
+
+
+```{r}
+one_zero <- c(0, 1, 0, 1, 0, 1)
+zero_one <- c(1, 0, 1, 0, 1, 0)
+
+all <- data.frame(one_zero, zero_one)
+```
+
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
