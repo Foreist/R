@@ -1,0 +1,24 @@
+---
+
+title: "R_ML_PROJECT01_Titanic(1)"
+author: created by LDJ
+date: 2019/09/10
+output:
+ html_document :
+   highlight: textmate
+   theme : cosmo
+   toc: true
+   toc_depth: 3
+   toc_float: true
+
+---
+## 1번 제목
+```{r}
+
+```
+## 2번 제목
+```{r}
+
+```
+
+
